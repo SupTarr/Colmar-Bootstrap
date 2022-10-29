@@ -1,0 +1,19 @@
+.navbar.navbar-expand-sm {
+  height: 64px;
+}
+
+.navbar.navbar-expand-sm > .container {
+  padding: 0px;
+}
+
+.navbar-brand.collapse {
+  margin-left: 24px;
+}
+
+nav.container {
+  height: 64px;
+}
+
+ul.nav {
+  height: 64px;
+}
