@@ -7,7 +7,6 @@
     <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
     <link rel="icon" type="image/png" href="./images/favicon.png" />
     <link rel="stylesheet" type="text/css" href="./style.css" />
-    <link rel="stylesheet" type="text/css" href="./style-mobile.css" />
     <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet" />
     <!-- Bootstrap CSS -->
     <link
@@ -20,8 +19,8 @@
 
   <body>
     <!-- Desktop browser menu -->
-    <nav class="navbar navbar-expand-sm d-none d-sm-block">
-      <div class="container">
+    <nav class="fixed-top bg-white navbar navbar-expand-md d-none d-md-flex">
+      <div class="container-lg">
         <a class="navbar-brand collapse navbar-collapse" href="#">
           <img src="images/ic-logo.svg" alt="Colmar Academy logo desktop" />
           <strong>COLMAR</strong>ACADEMY
@@ -46,7 +45,7 @@
     </nav>
 
     <!-- Mobile menu -->
-    <nav class="container d-block d-sm-none">
+    <nav class="fixed-top bg-white container-lg d-block d-md-none">
       <ul class="nav justify-content-evenly align-items-center">
         <li class="nav-item">
           <a class="nav-link" href="#">
@@ -55,7 +54,10 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">
-            <img src="images/ic-on-campus.svg" alt="Colmar Academy logo on-campus" />
+            <img
+              src="images/ic-on-campus.svg"
+              alt="Colmar Academy logo on-campus"
+            />
           </a>
         </li>
         <li class="nav-item">
@@ -71,25 +73,25 @@
       </ul>
     </nav>
 
+    <!-- Top Banner -->
+    <article class="bg-secondary bg-opacity-25 position-relative">
+      <div class="container-md">
+        <div class="row">
+          <img class="col-md-7 py-md-4 px-0 px-md-4" src="images/banner.jpg" alt="Reading Book" />
+          <div class="col-md-5 d-flex flex-column justify-content-center">
+            <div class="d-grid py-3 banner-right">
+              <h1>Learn something new everday</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button type="button" class="btn btn-secondary">
+                Start here
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
     <!--
-    <article id="banner-container">
-      <img src="images/banner.jpg" alt="Reading Book" />
-      <div id="banner-text">
-        <h1>Learn something new everday</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <button type="button">Start here</button>
-      </div>
-    </article>
-
-    <article id="banner-container-mobile">
-      <img src="images/banner.jpg" alt="Reading Book" />
-      <div id="banner-mobile-text">
-        <h1>Learn something new everday</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <button type="button">Start here</button>
-      </div>
-    </article>
-
     <article id="content">
       <div id="content-left">
         <img src="images/information-main.jpg" alt="A man reading book" />
@@ -158,9 +160,9 @@
   -->
 
     <!--Start learning-->
-    <section class="text-bg-light">
+    <section class="text-bg-light position-relative">
       <div class="container">
-        <h2 class="text-center">Start learning</h2>
+        <h2 class="text-center mt-3">Start learning</h2>
         <div class="row">
           <!--Software engineering-->
           <div class="col-md-4 py-3">

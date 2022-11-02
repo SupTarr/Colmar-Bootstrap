@@ -17,3 +17,17 @@ nav.container {
 ul.nav {
   height: 64px;
 }
+
+@media (min-width: 992px) {
+  div.d-grid.banner-right {
+    width: 75%;
+  }
+}
+
+article.bg-secondary.bg-opacity-25 {
+  top: 64px;
+}
+
+section.text-bg-light.position-relative {
+  top: 64px;
+}
