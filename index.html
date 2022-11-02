@@ -28,7 +28,9 @@
         <div class="collapse navbar-collapse me-3" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link fw-semibold" aria-current="page" href="#">On campus</a>
+              <a class="nav-link fw-semibold" aria-current="page" href="#"
+                >On campus</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link fw-semibold" href="#">Online</a>
@@ -74,14 +76,23 @@
     </nav>
 
     <!-- Top Banner -->
-    <article class="bg-secondary bg-opacity-50 position-relative">
+    <article
+      class="bg-secondary bg-opacity-50 position-relative"
+      id="top-banner"
+    >
       <div class="container-md">
         <div class="row">
-          <img class="col-md-7 py-md-4 px-0 px-md-4" src="images/banner.jpg" alt="Reading Book" />
+          <img
+            class="col-md-7 py-md-4 px-0 px-md-4"
+            src="images/banner.jpg"
+            alt="Reading Book"
+          />
           <div class="col-md-5 d-flex flex-column justify-content-center">
             <div class="d-grid py-3 banner-right">
               <h1 class="fw-bold">Learn something new everday</h1>
-              <p class="fw-bolder">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p class="fw-bolder">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
               <button type="button" class="btn btn-secondary fw-semibold">
                 Start here
               </button>
@@ -91,50 +102,60 @@
       </div>
     </article>
 
-    <!--
-    <article id="content">
-      <div id="content-left">
-        <img src="images/information-main.jpg" alt="A man reading book" />
-        <h2>It doesn't hurt to keep practicing</h2>
-        <p>
-          "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
-          commodo lectus,nec consequat neque. Sed non accumsan urna. Phasellus
-          sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
-          tristique ligula"
-        </p>
-        <p class="content-left-end">Emanuel, Sr Strategist at Hiring.com</p>
-      </div>
-      <div id="content-right">
-        <div>
-          <img src="images/information-orientation.jpg" alt="Walking people" />
-          <div class="content-right-text">
-            <h2>Orientation date</h2>
-            <p>Tue 10/11 & Wed 10/12 : 8am-3pm</p>
-            <p class="read-more">Read more</p>
-          </div>
+    <!-- Information -->
+    <article class="position-relative d-none d-md-grid" id="information">
+      <div class="container-md row mx-auto">
+        <div class="col-md-7">
+          <img
+            class="w-100"
+            src="images/information-main.jpg"
+            alt="A man reading book"
+          />
+          <h2>It doesn't hurt to keep practicing</h2>
+          <p>
+            "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+            commodo lectus,nec consequat neque. Sed non accumsan urna. Phasellus
+            sed consequat ex. Etiam eget magna laoreet, efficitur dolor
+            consequat, tristique ligula"
+          </p>
+          <p class="content-left-end">Emanuel, Sr Strategist at Hiring.com</p>
         </div>
-        <div>
-          <img src="images/information-campus.jpg" alt="A meeting room" />
-          <div class="content-right-text">
-            <h2>Our campus</h2>
-            <p>Find which campus is close by you</p>
-            <p class="read-more">Read more</p>
+        <div class="col-md-5">
+          <div class="row">
+            <img
+              class="col-md-5"
+              src="images/information-orientation.jpg"
+              alt="Walking people"
+            />
+            <div class="col-md-7 content-right-text">
+              <h2>Orientation date</h2>
+              <p>Tue 10/11 & Wed 10/12 : 8am-3pm</p>
+              <p class="read-more">Read more</p>
+            </div>
           </div>
-        </div>
-        <div id="content-right-color">
-          <img src="images/information-guest-lecture.jpg" alt="Lecturer" />
-          <div class="content-right-text">
-            <h2>Our guest Lecture</h2>
-            <p>
-              Join a keynote with Oliver Sack about music in medical treatment
-            </p>
-            <p class="read-more">Read more</p>
+          <div class="row">
+            <img class="col-md-5" src="images/information-campus.jpg" alt="A meeting room" />
+            <div class="col-md-7 content-right-text">
+              <h2>Our campus</h2>
+              <p>Find which campus is close by you</p>
+              <p class="read-more">Read more</p>
+            </div>
+          </div>
+          <div class="row" id="content-right-color">
+            <img class="col-md-5" src="images/information-guest-lecture.jpg" alt="Lecturer" />
+            <div class="col-md-7 content-right-text">
+              <h2>Our guest Lecture</h2>
+              <p>
+                Join a keynote with Oliver Sack about music in medical treatment
+              </p>
+              <p class="read-more">Read more</p>
+            </div>
           </div>
         </div>
       </div>
     </article>
 
-    <article id="content-mobile">
+    <article class="d-block d-md-none" id="information-mobile">
       <img
         src="images/information-orientation-mobile.jpg"
         alt="Walking people"
@@ -157,10 +178,12 @@
         <p class="read-more">Read more</p>
       </div>
     </article>
-  -->
 
     <!--Start learning-->
-    <section class="bg-secondary bg-opacity-25 position-relative" id="start-learning">
+    <section
+      class="bg-secondary bg-opacity-25 position-relative"
+      id="start-learning"
+    >
       <div class="container">
         <h2 class="text-center pt-3 fw-bolder">Start learning</h2>
         <div class="row">
@@ -173,7 +196,9 @@
                 alt="Computer"
               />
               <div class="card-body">
-                <h4 class="card-title pb-2 mb-2 lh-sm fs-5 fw-bolder">Software engineering</h4>
+                <h4 class="card-title pb-2 mb-2 lh-sm fs-5 fw-bolder">
+                  Software engineering
+                </h4>
                 <h5 class="card-subtitle fs-6 mb-2">COURSES</h5>
                 <p class="card-text fs-6 lh-sm">
                   Web Development, Mobile Development, iOT, APIs
@@ -190,7 +215,9 @@
                 alt="Mobile Phones"
               />
               <div class="card-body">
-                <h4 class="card-title pb-2 mb-2 lh-sm fs-5 fw-bolder">Computer Art</h4>
+                <h4 class="card-title pb-2 mb-2 lh-sm fs-5 fw-bolder">
+                  Computer Art
+                </h4>
                 <h5 class="card-subtitle fs-6 mb-2">COURSES</h5>
                 <p class="card-text fs-6 lh-sm">
                   Imaging & Design, Web Design, Motion Graphics & Visual
@@ -208,7 +235,9 @@
                 alt="Photography"
               />
               <div class="card-body">
-                <h4 class="card-title pb-2 mb-2 lh-sm fs-5 fw-bolder">Design</h4>
+                <h4 class="card-title pb-2 mb-2 lh-sm fs-5 fw-bolder">
+                  Design
+                </h4>
                 <h5 class="card-subtitle fs-6 mb-2">COURSES</h5>
                 <p class="card-text fs-6 lh-sm">
                   User Experience Design, User Research, Visual Design
@@ -242,7 +271,9 @@
                 alt="Chess"
               />
               <div class="card-body">
-                <h4 class="card-title pb-2 mb-2 lh-sm fs-5 fw-bolder">Business</h4>
+                <h4 class="card-title pb-2 mb-2 lh-sm fs-5 fw-bolder">
+                  Business
+                </h4>
                 <h5 class="card-subtitle fs-6 mb-2">COURSES</h5>
                 <p class="card-text fs-6 lh-sm">
                   Product Development, Business Development, Startup
@@ -259,7 +290,9 @@
                 alt="Smart Watch"
               />
               <div class="card-body">
-                <h4 class="card-title pb-2 mb-2 lh-sm fs-5 fw-bolder">Marketing</h4>
+                <h4 class="card-title pb-2 mb-2 lh-sm fs-5 fw-bolder">
+                  Marketing
+                </h4>
                 <h5 class="card-subtitle fs-6 mb-2">COURSES</h5>
                 <p class="card-text fs-6 lh-sm">
                   Analytics, Content Marketing, Mobile Marketing

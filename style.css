@@ -24,7 +24,15 @@ ul.nav {
   }
 }
 
-article.bg-secondary.bg-opacity-50 {
+#top-banner {
+  top: 64px;
+}
+
+#information {
+  top: 64px;
+}
+
+#information-mobile {
   top: 64px;
 }
 
