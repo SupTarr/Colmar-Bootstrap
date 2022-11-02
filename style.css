@@ -24,10 +24,10 @@ ul.nav {
   }
 }
 
-article.bg-secondary.bg-opacity-25 {
+article.bg-secondary.bg-opacity-50 {
   top: 64px;
 }
 
-section.text-bg-light.position-relative {
+#start-learning {
   top: 64px;
 }
