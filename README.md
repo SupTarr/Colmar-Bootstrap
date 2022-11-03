@@ -2,7 +2,7 @@
 
 ## About The Project
 
-I make full use of our Bootstrap knowledge and its accompanying documentation to design and create a website for Colmar Academy School. You can download the Colmar Academy's design spec [here](https://content.codecademy.com/courses/freelance-1/capstone-2/colmar-academy-spec.png).
+I make full use of `Bootstrap` knowledge and its accompanying documentation to design and create a website for Colmar Academy School. You can download the Colmar Academy's design spec [here](https://content.codecademy.com/courses/freelance-1/capstone-2/colmar-academy-spec.png).
 
 ## Technologies
 
@@ -67,5 +67,5 @@ This project was created with:
 Clone the project
 
 ```sh
-git clone https://github.com/SupTarr/Fotomatic.git
+git clone https://github.com/SupTarr/Colmar-Bootstrap.git
 ```
