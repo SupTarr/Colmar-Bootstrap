@@ -18,7 +18,7 @@ ul.nav {
   height: 64px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   div.d-grid.banner-right {
     width: 75%;
   }
@@ -37,5 +37,13 @@ ul.nav {
 }
 
 #start-learning {
+  top: 64px;
+}
+
+#thesis {
+  top: 64px;
+}
+
+#footer {
   top: 64px;
 }
